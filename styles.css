@@ -70,6 +70,9 @@
 
 /*About*/
 
+#about div{
+    font-size: 20px;
+}
 #about{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -243,4 +246,11 @@ ul > li{
 }
 #promo a{
 float:none
+}
+
+/*gold*/
+
+#gold h3{
+    display: flex;
+    justify-content: center;
 }
