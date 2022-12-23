@@ -259,7 +259,7 @@ float:none
         flex-wrap: wrap;
     }
     iframe{
-        scale: 65%;
+        scale: 50%;
     }
 }
 #gold h3{
