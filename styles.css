@@ -362,13 +362,29 @@ h3{
 
 }
 
+ .profile{
+    background:#ccc;
+}
+
 blockquote{
     font-size: 30px;
     font-weight: bold;
     font-style: sans-serif;
+    padding-bottom: 10px
 }
 
 .profile h3{
     font-size: 30px;
     font-weight: lighter;
+    padding-bottom: 10px
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%
 }
