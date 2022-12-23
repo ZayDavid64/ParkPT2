@@ -259,7 +259,9 @@ float:none
         flex-wrap: wrap;
     }
     iframe{
-        scale: 50%;
+        max-width: 800px;
+        width: 300px;
+        height: auto;
     }
 }
 #gold h3{
