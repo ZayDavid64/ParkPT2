@@ -379,12 +379,33 @@ blockquote{
     padding-bottom: 10px
 }
 
+/*Contact*/
+
 .contact-form{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     gap: 30px;
     padding: 20px;
     flex-wrap: wrap;
     width: 100%
 }
+
+.form-group{
+    width: 60%;
+    height: auto;
+}
+
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.form-control{
+    border-radius: : 0!important;
+    border: none!important;
+}
+
