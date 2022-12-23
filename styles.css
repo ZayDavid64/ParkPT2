@@ -255,6 +255,12 @@ float:none
     .prices{
         flex-wrap: wrap;
     }
+    .address{
+        flex-wrap: wrap;
+    }
+    iframe{
+        scale: 65%;
+    }
 }
 #gold h3{
     display: flex;
@@ -401,3 +407,42 @@ blockquote{
     border: none!important;
 }
 
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addy{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hours ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hours li{
+    font-size: 20px;
+}
+
+.hours span{
+    font-weight: bold;
+}
+
+.address h2{
+    text-align: center;
+}
