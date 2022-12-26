@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -447,4 +451,17 @@ blockquote{
 
 .address h2{
     text-align: center;
+}
+
+
+/*footer*/
+
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+
+.fa-moon-o{
+    margin: 3px;
 }
