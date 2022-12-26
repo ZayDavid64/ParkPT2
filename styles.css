@@ -18,7 +18,13 @@ body{
 
 .navbar-brand, h4{
     height: 40px;
-    padding-left: 30px
+}
+
+@media (min-width: 992px) {
+  .navbar-brand h4 {
+    height: 40px;
+    padding-left: 30px;
+  }
 }
 
 .navbar-nav, li{
@@ -153,7 +159,7 @@ body{
 .services .col-md-3:hover{
     background: #03af65;
     cursor: pointer;
-    transition: 0.7s 
+    transition: 0.7s
 }
 /*Team*/
 #team{
@@ -203,7 +209,7 @@ ul > li{
     filter: grayscale(0);
     cursor: pointer;
     scale: 110%;
-    transition: 0.7s 
+    transition: 0.7s
 }
 
 .name{
